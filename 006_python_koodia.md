@@ -1,5 +1,5 @@
-Esimerkkikoodeja Pythonista
-===========================
+Python koodia
+=============
 
 [5kertaa.py](006_python_koodia/5kertaa.py) tulostaa nimesi 5 kertaa
 
