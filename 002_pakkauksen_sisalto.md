@@ -8,7 +8,7 @@ Pakkauksen sisältö ja lisälaitteet
 | Kotelo                       | Puna-valkoinen kotelo               |
 | Kameramoduuli                | Kameramoduuli                       |
 | SenseHAT -moduuli            | SenseHAT -moduuli                   |
-| Kosteus- ja lämpötila-anturi | Kosteus- ja lämpötila-anturi        |
+| Kosteus- ja lämpötila-anturi | ADSONG AM2302                       |
 | HDMI-kaapeli                 | 2m                                  |
 | HDMI-DVI -adapteri           | Valkoinen                           |
 | Langaton näppäimistö         | Microsoft All-In-One media keyboard |
