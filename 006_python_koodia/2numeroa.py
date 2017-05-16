@@ -1,11 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Tee ohjelma, joka kysyy kaksi lukua.
-# Ohjelma tulee laskea luvut yhteen.
+# Ohjelman tulee laskea luvut yhteen.
 
-num1 = input('Enter first number: ')
-num2 = input('Enter second number: ')
+num1 = eval(input('Anna ensimmäinen numero: '))
+num2 = eval(input('Anna toinen numero: '))
 
-# Add two numbers
+# Muutetaan numerot lennossa tyypille float ja lisätään yhteen, muodosaen muuttuja sum
 sum = float(num1) + float(num2)
 
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+# Näytetään laskettu summa (sum)
+print('Lukujen {0} ja {1} summa on {2}'.format(num1, num2, sum))

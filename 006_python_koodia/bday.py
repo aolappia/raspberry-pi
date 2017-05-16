@@ -1,9 +1,12 @@
-# Tee ohjelma, joka kysyy syntymavuotesi ja laskee sen perusteella ikasi.
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Tee ohjelma, joka kysyy syntymävuotesi ja laskee sen perusteella ikäsi.
 
 from datetime import datetime
 
-my_date = raw_input("Enter B'date in dd/mm/yyyy format:")
+my_date = input("Anna syntymäpäiväsi muodossa pp.kk.vvvv format: ")
 
-b_date = datetime.strptime(my_date, '%d/%m/%Y')
+b_date = datetime.strptime(my_date, '%d.%m.%Y')
 
-print "Age : %d" % ((datetime.today() - b_date).days/365)
+print("Ikä: %d" % ((datetime.today() - b_date).days/365))
