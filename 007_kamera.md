@@ -17,7 +17,7 @@ Ota käyttöön kamera
 Ota valokuva ja video käyttämällä komentoja
 
 ```
-raspistill
+raspistill -o kuva.jpg
 raspivid
 ```
 
@@ -25,7 +25,5 @@ Tutki komentoja lisää esimerksi komennoilla
 
 ```
 raspistill --help
-raspistill -h
 raspivid --help
-raspivid -h
 ```
