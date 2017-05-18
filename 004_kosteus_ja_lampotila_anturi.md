@@ -15,3 +15,32 @@ Pinnit joihin AM2302 kytketään on + pinniin 1 OUT pinnin 3 ja - pinniin 9.
 Raspberryn GPIO diagrammi alla.
 
 ![](https://aolappia.github.io/raspberry-pi/images/004/gpio.jpg)
+
+Python kirjasto löytyy kansiosta 004_kosteus_ja_lampotila_anturi/Adafruit_Python_DHT/
+
+Siihen pääsee käsiksi avaamalla terminaalin ja vaihtamalla kansioon komennolla
+
+```
+cd /home/pi/Downloads/raspberry-pi-master/004_kosteus_ja_lampotila_anturi/Adafruit_Python_DHT
+```
+
+Kirjasto asennetaan seuraavasti
+
+```
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-openssl
+sudo python setup.py install
+```
+
+Seuraavana testataan sensorin toiminta.
+
+```
+cd examples
+sudo ./AdafruitDHT.py 2302 4
+```
+
+Nyt sinun pitäisi nähdä ruudulla kosteus ja lämpötila arvot sensorilta.
+
+Testaa sensorin toimintaa lisää puhaltamalla kosteaa ilmaa sensoriin ja aja komento uudestaan.
+
+Tutki koodia ja selvitä miten se toimii.
