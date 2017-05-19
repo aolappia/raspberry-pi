@@ -36,7 +36,7 @@ Seuraavana testataan sensorin toiminta.
 
 ```
 cd examples
-chmod +c AdafruitDHT.py
+chmod +x AdafruitDHT.py
 sudo ./AdafruitDHT.py 2302 4
 ```
 
