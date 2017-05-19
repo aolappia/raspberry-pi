@@ -8,7 +8,7 @@ Anturi liitetään Raspberry Pi:n GPIO pinneihin.
 
 ![](https://aolappia.github.io/raspberry-pi/images/004/rpi_dht22.jpg)
 
-Pinnit joihin AM2302 kytketään on + pinniin 1 OUT pinnin 3 ja - pinniin 9.
+Pinnit joihin AM2302 kytketään on + pinniin 1 OUT pinnin 7 ja - pinniin 9.
 
  
 
