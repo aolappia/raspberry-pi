@@ -5,13 +5,15 @@ Ammattiopisto Lappia - Raspberry Pi opetusmateriaali
 
 ### Sisällysluettelo
 
--   [000 - GitHub ja sen käyttö](000_github.md)
+ 
 
--   [001 - Raspberry Pi - mikä se on?](001_raspberry_pi.md)
+-   [000 - Raspberry Pi - mikä se on?](000_raspberry_pi.md)
 
--   [002 - Pakkauksen sisältö ja lisälaitteet](002_pakkauksen_sisalto.md)
+-   [001 - Pakkauksen sisältö ja lisälaitteet](001_pakkauksen_sisalto.md)
 
--   [003 - Käyttöönotto](003_kayttoonotto.md)
+-   [002 - Käyttöönotto](002_kayttoonotto.md)
+
+-   [003 - GitHub ja sen käyttö](003_github.md)
 
 -   [004 - Kosteus ja lämpötila-anturi](004_kosteus_ja_lampotila_anturi.md)
 
