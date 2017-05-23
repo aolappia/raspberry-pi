@@ -18,3 +18,5 @@ Ammattiopisto Lappia - Raspberry Pi opetusmateriaali
 -   [005 - SenseHAT](005_SenseHAT.md)
 
 -   [006 - Python koodia](006_python_koodia.md)
+
+-   [007 - Kamera](007_kamera.md)
